@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class BOJ_7576_tomato {
 
     static int[][] tomatoBox;
     static int N;
@@ -42,7 +42,7 @@ public class Main {
 
             bfs(q);
             
-            if (q.size()== 0) break;
+            if (q.isEmpty()) break;
             day++;
 
         }
